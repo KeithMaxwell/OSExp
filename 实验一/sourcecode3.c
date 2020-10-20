@@ -11,7 +11,7 @@ int main()
     {
         for(int i=0;i<looptimes;i++)
         {
-            printf("%s","我是子进程！\n");
+            puts("I'm child!");
             sleep(1);
         }
         

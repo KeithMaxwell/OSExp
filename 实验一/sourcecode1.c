@@ -11,7 +11,8 @@ int main()
     {
         for(int i=0;i<looptimes;i++)
         {
-            printf("%s","I am child.\n");
+            
+            puts("I'm child.");
             sleep(1);
         }
         
@@ -20,7 +21,8 @@ int main()
     {
         for(int i=0;i<looptimes;i++)
         {
-            printf("%s","I am parent.\n");
+            
+            puts("I'm father.");
             sleep(1);
         }
     }
